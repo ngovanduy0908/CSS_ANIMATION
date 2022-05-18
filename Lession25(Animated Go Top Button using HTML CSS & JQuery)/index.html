@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Top Button</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="gotopbtn"> 
+            <i class="fas fa-arrow-up"></i>
+        </div>
+        <img src="image.jpg" alt="">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis facilis voluptatibus mollitia libero illum saepe nisi optio maiores velit doloremque fugit laborum ipsum praesentium sit repellendus laudantium necessitatibus, est reiciendis itaque vel veritatis, nihil labore animi cumque. Eligendi ad eos quas aut blanditiis alias placeat sunt sed corporis natus ipsam, odio sit distinctio saepe soluta voluptatem iste. Repellendus, recusandae. Cumque iure, repudiandae voluptatibus voluptas ab dignissimos quasi veritatis. Laborum, ipsum perspiciatis voluptatem, nesciunt, porro nemo tenetur id aliquam aspernatur explicabo ratione quas reprehenderit non repellendus quaerat sit inventore eligendi quam maxime nobis officia excepturi. At eos, eveniet doloribus, animi earum, nihil vero ab qui nulla impedit molestias id itaque alias temporibus voluptatem enim. Rem cupiditate omnis, ea illo, labore hic numquam blanditiis quod odio deleniti quibusdam facere eveniet harum ut aliquam voluptatibus magnam! Omnis neque, libero aperiam inventore repudiandae labore natus doloribus autem quas odio nesciunt minus culpa nostrum totam accusamus reiciendis exercitationem sit quam saepe adipisci reprehenderit voluptate tenetur. Ut vel, eum praesentium repellendus at, quasi doloribus dolorum, error accusantium quas nemo cupiditate iusto itaque non sapiente in blanditiis quia. Nostrum magni quas dolorem ad modi, suscipit totam nam. Nihil asperiores explicabo eum quisquam reiciendis beatae aliquam sunt culpa optio! Veniam ipsum, quia debitis officia accusamus quibusdam accusantium atque voluptas reiciendis excepturi ratione dolores sit dicta nobis sed commodi nulla nostrum eaque, blanditiis itaque? Illo sint ullam, a cum laudantium, quae recusandae assumenda molestias qui sit aut quasi autem. Recusandae amet odit deleniti perferendis molestiae quidem nulla alias reiciendis earum, doloribus enim incidunt cumque voluptates nesciunt iusto suscipit numquam officia dicta optio expedita illum temporibus magni sapiente. Placeat provident, quam dicta laborum voluptatum illum iure nulla aperiam. Modi praesentium ex eum, in sequi quaerat molestias magnam doloremque vel facilis quia sint nihil rem, aperiam necessitatibus voluptatum animi eligendi. Dignissimos!
+        </p>
+
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis facilis voluptatibus mollitia libero illum saepe nisi optio maiores velit doloremque fugit laborum ipsum praesentium sit repellendus laudantium necessitatibus, est reiciendis itaque vel veritatis, nihil labore animi cumque. Eligendi ad eos quas aut blanditiis alias placeat sunt sed corporis natus ipsam, odio sit distinctio saepe soluta voluptatem iste. Repellendus, recusandae. Cumque iure, repudiandae voluptatibus voluptas ab dignissimos quasi veritatis. Laborum, ipsum perspiciatis voluptatem, nesciunt, porro nemo tenetur id aliquam aspernatur explicabo ratione quas reprehenderit non repellendus quaerat sit inventore eligendi quam maxime nobis officia excepturi. At eos, eveniet doloribus, animi earum, nihil vero ab qui nulla impedit molestias id itaque alias temporibus voluptatem enim. Rem cupiditate omnis, ea illo, labore hic numquam blanditiis quod odio deleniti quibusdam facere eveniet harum ut aliquam voluptatibus magnam! Omnis neque, libero aperiam inventore repudiandae labore natus doloribus autem quas odio nesciunt minus culpa nostrum totam accusamus reiciendis exercitationem sit quam saepe adipisci reprehenderit voluptate tenetur. Ut vel, eum praesentium repellendus at, quasi doloribus dolorum, error accusantium quas nemo cupiditate iusto itaque non sapiente in blanditiis quia. Nostrum magni quas dolorem ad modi, suscipit totam nam. Nihil asperiores explicabo eum quisquam reiciendis beatae aliquam sunt culpa optio! Veniam ipsum, quia debitis officia accusamus quibusdam accusantium atque voluptas reiciendis excepturi ratione dolores sit dicta nobis sed commodi nulla nostrum eaque, blanditiis itaque? Illo sint ullam, a cum laudantium, quae recusandae assumenda molestias qui sit aut quasi autem. Recusandae amet odit deleniti perferendis molestiae quidem nulla alias reiciendis earum, doloribus enim incidunt cumque voluptates nesciunt iusto suscipit numquam officia dicta optio expedita illum temporibus magni sapiente. Placeat provident, quam dicta laborum voluptatum illum iure nulla aperiam. Modi praesentium ex eum, in sequi quaerat molestias magnam doloremque vel facilis quia sint nihil rem, aperiam necessitatibus voluptatum animi eligendi. Dignissimos!
+        </p>
+    </div>
+
+
+    <script>
+        $(window).scroll(function(){
+            if($(this).scrollTop() > 150)
+                $(".gotopbtn").addClass("active");
+            else
+            $(".gotopbtn").removeClass("active"); 
+        });
+        $(".gotopbtn").click(function(){
+            $("html, body").animate({scrollTop:0}, 800);
+        });
+    </script>
+</body>
+</html>
